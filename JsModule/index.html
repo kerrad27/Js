@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+   
+    <script async src="components.js"></script>
+    <script async src="script.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="flex-header">
+                    <div class="nav-menu">
+                        <ul class="header-menu">
+                            <li><a href="#">About</a></li>
+                            <li><a href="index.html">Films</a></li>
+                            <li><a href="favorite.html">Favorite</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="swipe-wrapper">
+            <div class="swipe-container">
+                <div class="main-text">
+                    <h1>Deadpool: No Good Deed</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus, voluptate voluptatibus,
+                        reprehenderit cupiditate veritatis consectetur unde hic iusto, tempore exercitationem architecto
+                        at praesentium ex</p>
+                </div>
+                <div class="btn-container">
+                    <a class="glitch-btn" href="#" target="_blank">
+                        <div class="text">WATCH</div>
+                        <div class="mask">
+                            <span>WATCH</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="search-container">
+                    <div class="wrapperS">
+                        <div class="search-box" id="searchContainer">
+                           <input type="text" placeholder="Search..." class="input" id="inputSearch">
+                           <div class="btnS" id="btnInpSearch">
+                             <i class="fa fa-search" aria-hidden="true" ></i>
+                           </div>
+                           <div id="dropDown" class="drop-down">
+                        <select id="selectGenres">
+                            <option value=''>Genres</option>
+                            <option value='Crime'>Crime </option>
+                            <option value='Drama'>Drama </option>
+                            <option value='Comedy'>Comedy </option>
+                            <option value='Food'>Food </option>
+                            <option value='Travel'>Travel </option>
+                          </select>
+                          <select id="selectLanguage">
+                            <option value=''>Language</option>
+                            <option value='English'>English </option>
+                            <option value='Russian'>Russian </option>
+                            <option value='Japanese'>Japanese </option>
+                            <option value='Ukrainian'>Ukrainian </i></option>
+                          </select>
+                          </div>
+                        </div> 
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-container">
+            <div class="section" id="section">
+            </div>
+        </div>
+<!-------------------------- The Modal ------------------------->
+
+    <div id="myModal" class="modal">
+    <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+        </div>
+    </div>
+</div>   
+</body>
+</html>
