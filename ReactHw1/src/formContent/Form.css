@@ -1,0 +1,53 @@
+h2 {
+    text-align:  center;
+    opacity: .6;
+}
+
+.form {
+    position: relative;
+    max-width: 350px;
+    margin: 0 auto;
+    background: url(https://i.pinimg.com/736x/9f/74/e7/9f74e739cac096820a72f87c12d3a994.jpg);
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.form-in {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 35px;
+}
+
+.form-in h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #b5dff3;
+    opacity: .8;
+    cursor: default;
+}
+
+.form-in input {
+    display: block;
+    width: 75%;
+    border-width: 0;
+    border-radius: 10px;
+    padding: 0 20px;
+    margin: 10px;
+    line-height: 35px;
+    outline: none;
+    background: #b5dff3;
+}
+
+.form-in button {
+    width: 100%;
+    padding: 0 20px;
+    border-width: 0;
+    border-radius: 10px;
+    margin: 10px;
+    line-height: 35px;
+    outline: none;
+    opacity: .8;
+    cursor: pointer;
+    background: #b5dff3;
+}
